@@ -198,6 +198,7 @@ message(STATUS "FUZZ: ${FUZZ}")
 
 subdirs(src)
 subdirs(examples)
+subdirs(regress)
 if(NOT WIN32)
 subdirs(tools)
 endif()
